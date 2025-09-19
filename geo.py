@@ -30,6 +30,7 @@ while i<len(actd):
         else:
             if a[2]==-1 or a[2]==1:
                 i+=1
+                print("\n"*30)
                 continue
             a[2]-=1
             if i!=len(actd)-1:
