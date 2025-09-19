@@ -33,7 +33,13 @@ while i<len(actd):
                 print("\n"*30)
                 continue
             a[2]-=1
+            '''if a[2]==-1:
+                a[2]=3'''
             if i!=len(actd)-1:
                 actd.insert(i+3,a)
+    else:
+        a[2]-=1
+        if i!=len(actd)-1:
+            actd.insert(i+3,a)
     print("\n"*30)
     i+=1
